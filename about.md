@@ -4,8 +4,7 @@ title: Sobre
 permalink: /about/
 ---
 
-#### StarsCTF Learning
-
+![image](/assets/logo.png){: style="width: 400px"}<br>
 O <i>StarsCTF Learning</i> surgiu a partir da inciativa de juntar <b>quem gosta de aprender</b> com <b>quem gosta de ensinar</b>.
 
 #### Para quem o StarsCTF é feito
