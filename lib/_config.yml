@@ -1,0 +1,67 @@
+# Site settings
+
+author: StarsCTF
+email: contato@starsctf.org
+twitter_username: starsctf
+github_username:  starsctf
+googleplus_username: StarsCTF
+
+head-title: StarsCTF Learning
+title: StarsCTF Learning
+
+baseurl: ""    # the subpath of your site, "/blog"
+url: "https://learning.starsctf.org/"
+
+# footer 
+description: "StarsCTF: Juntando quem gosta de aprender, com quem gosta de ensinar."
+
+favo: "Conselho do Mês:"
+descrpt: "Comece de onde você está. Use o que você tiver. Faça o que você puder.  《Arthur Ashe》"
+
+
+#
+# Build settings
+#
+
+#exclude: [vendor]
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  highlight: true
+  auto_ids:  true
+
+sass:
+  style: compressed
+
+permalink: /posts/:categories/:title.html
+
+paginate: 7
+#paginate_path: 'page/:num'
+
+gems: [jekyll-paginate, jekyll-last-modified-at, jemoji]
+
+
+#
+# Custom
+#
+
+# Color
+# All css class, see: http://materializecss.com/color.html
+header-color: "indigo lighten-1"
+head-theme-color: "#5c6bc0"     # MUST in hex format, may the same as header-color. This color is for android chrome browser.
+
+footer-color: "indigo lighten-1"
+footer-button-color: "indigo lighten-2"
+footer-link-color: "red-text text-accent-1"
+
+share-button-color: "pink"
+share-button-small-color: ""
+
+
+##
+#excerpt_separator: <!-- excerpt_end -->       # for post.excerpt
+
