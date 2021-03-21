@@ -8,9 +8,9 @@
   <meta name="theme-color" content="#5c6bc0">
 
   <link rel="shortcut icon" href="http://0.0.0.0:4000/favicon.ico">
-  <title>StarsCTF Learning</title>
-  <meta name="description" content="StarsCTF: Juntando quem gosta de aprender, com quem gosta de ensinar.">
-  <link rel="canonical" href="http://0.0.0.0:4000/">
+  <title>An example post</title>
+  <meta name="description" content="This is an example of post.">
+  <link rel="canonical" href="http://0.0.0.0:4000/posts/lib/readme/readme.html">
   <link rel="alternate" type="application/rss+xml" title="StarsCTF Learning" href="http://0.0.0.0:4000/feed.xml" />
 
   <link rel="stylesheet" href="/lib/materialize/css/materialize.min.css">
@@ -128,94 +128,193 @@
 
     <div class="site-container" id="tab-main"> 
       <div class="wrapper">
-        <div class="home container">
+        <div class="post-ribbon"></div>
 
-  <div class="page-heading">
-    <ul class="collapsible popout" data-collapsible="accordion">
-      <li>
-        <div class="collapsible-header favo"><i class="mdi mdi-weather-windy-variant"></i>Conselho do Mês:<i class="mdi mdi-pin right pink-text hide-on-small-only"></i></div>
-        <div class="collapsible-body"><p>Comece de onde você está. Use o que você tiver. Faça o que você puder.  《Arthur Ashe》</p></div>
-      </li>
-    </ul>
+<div class="container post-container">
+  <div class="post-page card-panel z-depth-2">
+  <div class="post-section">
+
+    <p class="grey-text">
+      <i class="mdi mdi-calendar"></i>&nbsp;
+      Dec 30, 2016
+      &nbsp;&nbsp;<i class="mdi mdi-account-circle"></i>&nbsp;
+      Lambda
+      &nbsp;&nbsp;<i class="mdi mdi-label"></i>&nbsp;
+      <span class="capitalize">
+        lib, readme
+        
+      </span>
+      &emsp;<i class="mdi mdi-refresh"></i>&nbsp;UPDATE: Mar 21, 2021
+    </p>
+
+    <div class="post-header">
+      <h1 class="post-title">An example post</h1>
+
+      
+        <i class="post-tag mdi mdi-tag-multiple waves-effect waves-light"></i>
+        
+        <span class="chip">jekyll</span>
+        
+        <span class="chip">material design</span>
+        
+      
+    </div>
+
+    <article class="post-content">
+      
+            <div id="toc-container" class="hide-on-med-and-down">
+              <a href="#!" class="dropdown-button btn post-toc white teal-text" data-activates="dropdown-toc">
+                <i class="mdi mdi-menu-up right"></i><span class="">Content</span>
+              </a>
+              <ul id="dropdown-toc" class="dropdown-content">
+<li class="toc_level-1 toc_section-1"><a href="#tocAnchor-1-1" class="link-toc"><span class="toctext">Post’s YAML</span></a></li>
+<li class="toc_level-1 toc_section-2"><a href="#tocAnchor-1-2" class="link-toc"><span class="toctext">Post’s Content</span></a></li>
+<li class="toc_level-1 toc_section-3"><a href="#tocAnchor-1-3" class="link-toc"><span class="toctext">Test</span></a></li>
+</ul>
+            </div>
+    <p>This is an example of post.</p>
+
+<h2 id="tocAnchor-1-1" class="section scrollspy">Post’s YAML</h2>
+
+<hr>
+
+<ul>
+  <li>
+    <dl>
+      <dt><code class="highlighter-rouge">layout: post</code></dt>
+      <dd>This should <strong>NOT</strong> be changed.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt><code class="highlighter-rouge">title</code></dt>
+      <dd>The title of your article.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt><code class="highlighter-rouge">author</code></dt>
+      <dd>E.g. <code class="highlighter-rouge">author: Lambda</code>, default is the site’s author.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt><code class="highlighter-rouge">date</code></dt>
+      <dd>E.g. <code class="highlighter-rouge">date: 2015-08-17</code> or <code class="highlighter-rouge">data: 2015-08-17 15:06:10</code>
+</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt><code class="highlighter-rouge">categories</code></dt>
+      <dd>No blanks, one post to one category. E.g. <code class="highlighter-rouge">categories: ["test"]</code>, <code class="highlighter-rouge">categories: ["test-this"]</code>
+</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>
+<code class="highlighter-rouge">tags</code> (optional)</dt>
+      <dd>You can specify one or more tags. E.g. <code class="highlighter-rouge">tags: [jekyll, html]</code>.</dd>
+    </dl>
+  </li>
+</ul>
+
+<hr>
+
+<ul>
+  <li>
+    <dl>
+      <dt>
+<code class="highlighter-rouge">mathjax</code> (optional)</dt>
+      <dd>if you need enable mathjax: <code class="highlighter-rouge">mathjax: true</code>; otherwise mean disable.</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>
+<code class="highlighter-rouge">update</code> (optional)</dt>
+      <dd>E.g. <code class="highlighter-rouge">update: 2015-05-02</code>
+</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>
+<code class="highlighter-rouge">comment</code> (optional)</dt>
+      <dd>enable the comment. E.g. <code class="highlighter-rouge">comment: true</code>
+</dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>
+<code class="highlighter-rouge">published</code> (optional)</dt>
+      <dd>true or false</dd>
+    </dl>
+  </li>
+</ul>
+
+<hr>
+
+<h2 id="tocAnchor-1-2" class="section scrollspy">Post’s Content</h2>
+
+<h4 id="include-liquid-in-markdown">Include Liquid in markdown</h4>
+
+<ul>
+  <li>All legal markdown syntax may be allowed.</li>
+  <li>Liquid synatax also should be allowed.</li>
+</ul>
+
+<p>So, if you want to avoid syntax conflicts, you can use <code class="highlighter-rouge">{% raw %}</code></p>
+
+<p>(More liquid syntax, see <a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers">Liquid-for-Designers</a>)</p>
+
+<h4 id="markdown">Markdown</h4>
+
+<p><a href="https://kramdown.gettalong.org/">kramdown</a></p>
+
+<h2 id="tocAnchor-1-3" class="section scrollspy">Test</h2>
+
+<p>Some long sentence.<sup id="fnref:footnote"><a href="#fn:footnote" class="footnote">1</a></sup> Other long sentence.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:footnote">
+      <p><a href="https://google.com">Link</a>. <a href="#fnref:footnote" class="reversefootnote">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+    </article>
+
+    <div class="post-share">
+
+<!-- desktop and tablet-->
+<div class="hide-on-small-only">
+  <i class="mdi mdi-share-variant material-icons small grey-text waves-effect waves-light"></i>
+
+  <a href="https://plus.google.com/share?url=http://0.0.0.0:4000/posts/lib/readme/readme.html" class="waves-effect waves-light btn pink tooltipped" data-position="bottom" data-delay="20" data-tooltip="Share on Google+"><i class="mdi mdi-google-plus white-text"></i></a>
+  <a href="https://twitter.com/intent/tweet?text=An example post&url=http://0.0.0.0:4000/posts/lib/readme/readme.html&via=starsctf&related=starsctf" class="waves-effect waves-light btn pink tooltipped" data-position="bottom" data-delay="20" data-tooltip="Share on Twitter"><i class="mdi mdi-twitter white-text"></i></a>
+  <a href="https://facebook.com/sharer.php?u=http://0.0.0.0:4000/posts/lib/readme/readme.html" class="waves-effect waves-light btn pink tooltipped" data-position="bottom" data-delay="20" data-tooltip="Share on Facebook"><i class="mdi mdi-facebook white-text"></i></a>
+</div>
+
+<!-- small screen device -->
+<div class="hide-on-med-and-up">
+  <i class="mdi mdi-share-variant waves-effect waves-light small tooltipped grey-text" data-position="bottom" data-delay="50" data-tooltip="Share"></i>
+
+  <a href="https://plus.google.com/share?url=http://0.0.0.0:4000/posts/lib/readme/readme.html" class="waves-effect waves-light btn-floating "><i class="mdi mdi-google-plus white-text"></i></a>
+  <a href="https://twitter.com/intent/tweet?text=An example post&url=http://0.0.0.0:4000/posts/lib/readme/readme.html&via=starsctf&related=starsctf" class="waves-effect waves-light btn-floating "><i class="mdi mdi-twitter white-text"></i></a>
+  <a href="https://facebook.com/sharer.php?u=http://0.0.0.0:4000/posts/lib/readme/readme.html" class="waves-effect waves-light btn-floating "><i class="mdi mdi-facebook white-text"></i></a>
+</div>
+
+</div>
+
+
+  </div>
   </div>
 
-  <ul class="post-list">
-    <!-- This loops through the paginated posts -->
-    
-      <li class="card-panel hoverable">
-        <span class="grey-text right">Mar 21, 2021</span>
-        <a class="post-link" href="/posts/hacking/Post-Test.html">Ethical Hacking</a>
-
-        <button data-target="_posts_hacking_Post-Test" class="waves-effect waves-light btn modal-trigger" style="padding: 0 1.2rem;">overview<i class="mdi mdi-send right"></i></button>
-
-        <div id="_posts_hacking_Post-Test" class="modal modal-fixed-footer">
-          <div class="modal-content">
-            <h4>Ethical Hacking</h4>
-            <p><h1 id="welcome">Welcome</h1>
-
-</p>
-          </div>
-          <div class="modal-footer">
-            <a href="/posts/hacking/Post-Test.html" class="waves-effect btn-flat grey-text text-darken-4 right">read more</a>
-            <a class="modal-action modal-close waves-effect btn-flat grey-text text-darken-4 left">close</a>
-          </div>
-        </div>
-      </li>
-    
-      <li class="card-panel hoverable">
-        <span class="grey-text right">Dec 30, 2016</span>
-        <a class="post-link" href="/posts/lib/blog/jekyll/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-
-        <button data-target="_posts_lib_blog_jekyll_welcome-to-jekyll" class="waves-effect waves-light btn modal-trigger" style="padding: 0 1.2rem;">overview<i class="mdi mdi-send right"></i></button>
-
-        <div id="_posts_lib_blog_jekyll_welcome-to-jekyll" class="modal modal-fixed-footer">
-          <div class="modal-content">
-            <h4>Welcome to Jekyll!</h4>
-            <p><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-</p>
-          </div>
-          <div class="modal-footer">
-            <a href="/posts/lib/blog/jekyll/welcome-to-jekyll.html" class="waves-effect btn-flat grey-text text-darken-4 right">read more</a>
-            <a class="modal-action modal-close waves-effect btn-flat grey-text text-darken-4 left">close</a>
-          </div>
-        </div>
-      </li>
-    
-      <li class="card-panel hoverable">
-        <span class="grey-text right">Dec 30, 2016</span>
-        <a class="post-link" href="/posts/lib/readme/readme.html">An example post</a>
-
-        <button data-target="_posts_lib_readme_readme" class="waves-effect waves-light btn modal-trigger" style="padding: 0 1.2rem;">overview<i class="mdi mdi-send right"></i></button>
-
-        <div id="_posts_lib_readme_readme" class="modal modal-fixed-footer">
-          <div class="modal-content">
-            <h4>An example post</h4>
-            <p><p>This is an example of post.</p>
-
-</p>
-          </div>
-          <div class="modal-footer">
-            <a href="/posts/lib/readme/readme.html" class="waves-effect btn-flat grey-text text-darken-4 right">read more</a>
-            <a class="modal-action modal-close waves-effect btn-flat grey-text text-darken-4 left">close</a>
-          </div>
-        </div>
-      </li>
-    
-  </ul>
-
-  <!-- Pagination links -->
-  <div class="pagination">
-    
-    <span class="btn disabled left"><i class="mdi mdi-chevron-left white-text"></i></span>
-    
-
-    <div class="waves-effect btn-flat lower-case page">Page: <span class="pink-text">1</span> of 1</div>
-
-    
-    <span class="btn disabled right"><i class="mdi mdi-chevron-right white-text"></i></a></li>
-    
-  </div>
+  
 
 </div>
 
