@@ -220,8 +220,7 @@ a.reversefootnote {
  */
 
 .post-ribbon {
-    //background-color: rgba(15, 99, 17, 0.51);
-    background-color: rgba(68, 68, 68, 0.41);
+    background-color: rgba(18, 136, 10 , 0.6);
     flex-shrink: 0;
     height: 40vh;
     width: 100%;
@@ -281,7 +280,7 @@ a.reversefootnote {
     h2 {
         font-family: $head-font;
         font-size: 1.8rem;
-        color: #ee6e73;
+        color: #12880a;
         margin: 2.78rem 0 1.224rem;
 
         @media #{$medium-and-down} {
@@ -295,7 +294,7 @@ a.reversefootnote {
     }
 
     h4 {
-        color: #105a98;
+        color: #12880a;
         font-family: $head-font;
         font-size: 1.4rem;
         margin: 1.68rem 0 1rem;

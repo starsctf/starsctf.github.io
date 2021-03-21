@@ -4,7 +4,8 @@ author: StarsCTF
 email: contato@starsctf.org
 twitter_username: starsctf
 github_username:  starsctf
-googleplus_username: StarsCTF
+instagram_username: StarsCTF
+linkedin_username: StarsCTF
 
 head-title: StarsCTF Learning
 title: StarsCTF Learning
@@ -13,7 +14,7 @@ baseurl: ""    # the subpath of your site, "/blog"
 url: "https://learning.starsctf.org/"
 
 # footer 
-description: "StarsCTF: Juntando quem gosta de aprender, com quem gosta de ensinar."
+description: "Conectando quem gosta de aprender,<br> com quem gosta de ensinar."
 
 favo: "Conselho do Mês:"
 descrpt: "Comece de onde você está. Use o que você tiver. Faça o que você puder.  《Arthur Ashe》"

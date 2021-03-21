@@ -2,34 +2,38 @@
     <div class="container">
       <div class="row">
         <div class="col l4 s12">
-          <h5 class="white-text">About</h5>
+          <h5 class="white-text">StarsCTF Learning</h5>
           <p class="grey-text text-lighten-4">
               "{{ site.description }}"
           </p>
         </div>
 
         <div class="col l4 s12 right">
-          <h5 class="white-text">Connect</h5>
-          <ul>
+          <h5 class="white-text">Siga a gente</h5>
+	    <ul>
             {% if site.github_username %}
             <li><a href="https://github.com/{{ site.github_username }}" class="white-text text-lighten-3 btn waves-effect waves-light {{ site.footer-button-color }} lighten-3"><i class="mdi mdi-github-circle"></i></a></li>
             {% endif %}
-            {% if site.googleplus_username %}
-            <li><a href="https://plus.google.com/+{{ site.googleplus_username }}" class="white-text text-lighten-3 btn waves-effect waves-light {{ site.footer-button-color }} lighten-3"><i class="mdi mdi-google-plus"></i></a></li>
+            {% if site.instagram_username %}
+            <li><a href="https://instagram.com/{{ site.instagram_username }}" class="white-text text-lighten-3 btn waves-effect waves-light {{ site.footer-button-color }} lighten-3"><i class="mdi mdi-instagram"></i></a></li>
             {% endif %}
             {% if site.twitter_username %}
             <li><a href="https://twitter.com/{{ site.twitter_username }}" class="white-text text-lighten-3 btn waves-effect waves-light {{ site.footer-button-color }} lighten-3"><i class="mdi mdi-twitter"></i></a></li>
             {% endif %}
-          </ul>
-        </div>
+	    {% if site.linkedin_username %}
+            <li><a href="https://www.linkedin.com/company/{{ site.linkedin_username }}" class="white-text text-lighten-3 btn waves-effect waves-light {{ site.footer-button-color }} lighten-3"><i class="mdi mdi-linkedin"></i></a></tr></li> 
+            {% endif %}
+	  </ul>
+	</div>
 
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-        Copyright © {{ site.author }}, under<a class="{{ site.footer-link-color }}" href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0</a> Powered by <a class="{{ site.footer-link-color }}" href="http://jekyllrb.com/">Jekyll</a>.
-        <a class="btn waves-effect waves-light {{ site.footer-button-color }} lighten-1 right white-text" href="{{ '/about' | prepend: site.baseurl }}" >Contact me</a>
+        Copyright  {{ site.author }}, under<a class="{{ site.footer-link-color }}" href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0</a> Powered with <a class="{{ site.footer-link-color }}" href="http://jekyllrb.com/">Jekyll</a> by <a class="{{ site.footer-link-color }}" href="http://twitter.com/shellt3r/">@shellt3r</a>.
+        <a class="btn waves-effect waves-light {{ site.footer-button-color }} lighten-1 right white-text" href="{{ '/about' | prepend: site.baseurl }}" >Fale Conosco</a>
       </div>
     </div>
   </footer>
+
 
