@@ -42,7 +42,7 @@
             <i class="mdi mdi-home left indigo-text text-lighten-3"></i>Início
         </a></li>
         <li><a href="/category" class="white-text">
-            <i class="mdi mdi-folder-multiple left indigo-text text-lighten-3"></i>Catálogo
+            <i class="mdi mdi-folder-multiple left indigo-text text-lighten-3"></i>Categoria
         </a></li>
         <li><a href="/about" class="white-text">
             <i class="mdi mdi-account-circle left indigo-text text-lighten-3"></i>Sobre
@@ -53,7 +53,7 @@
             <i class="mdi mdi-home left green-text"></i>Início
         </a></li>
         <li><a href="/category" class="waves-effect waves-teal black-text">
-            <i class="mdi mdi-folder-multiple left yellow-text text-darken-1"></i>Catálogo
+            <i class="mdi mdi-folder-multiple left yellow-text text-darken-1"></i>Categoria
         </a></li>
         <li><a href="/about" class="waves-effect waves-teal black-text">
             <i class="mdi mdi-account-circle left blue-text"></i>Sobre
@@ -67,11 +67,61 @@
           <ul class="tabs tabs-transparent">
             <li class="tab"><a class="active" href="#tab-main">Conteúdo</a></li>
           
+            <li class="tab "><a href="#tab_guia_estudos">Guia de Estudos</a></li>
+          
           </ul>
         </div>
       </nav>
     </header>
 
+  
+    <div id="tab_guia_estudos">
+      <div class="site-container"><div class="wrapper">
+
+<div class="post-ribbon"></div>
+
+<div class="container post-container">
+  <div class="post-page card-panel z-depth-2">
+  <div class="tab-section">
+
+<h1 id="sample-markdown">Sample Markdown</h1>
+<p>This is some basic, sample markdown.</p>
+<h2 id="second-heading">Second Heading</h2>
+<ul>
+<li>Unordered lists, and:<ol>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+</ol>
+</li>
+<li>More</li>
+</ul>
+<blockquote>
+<p>Blockquote</p>
+</blockquote>
+<p>And <strong>bold</strong>, <em>italics</em>, and even <em>italics and later <strong>bold</strong></em>. Even <del>strikethrough</del>. <a href="https://markdowntohtml.com">A link</a> to somewhere.</p>
+<p>And code highlighting:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> foo = <span class="hljs-string">'bar'</span>;
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">baz</span><span class="hljs-params">(s)</span> </span>{
+   <span class="hljs-keyword">return</span> foo + <span class="hljs-string">':'</span> + s;
+}
+</code></pre>
+<p>Or inline code like <code>var foo = &#39;bar&#39;;</code>.</p>
+<p>Or an image of bears</p>
+<p><img src="http://placebear.com/200/200" alt="bears"></p>
+<p>The end ...</p>
+
+  </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+
+
+    </div>
   
 
     <div class="site-container" id="tab-main"> 
@@ -94,18 +144,18 @@
         <span class="grey-text right">Mar 21, 2021</span>
         <a class="post-link" href="/posts/hacking/Exemplo-de-Post.html">Exemplo de Post</a>
 
-        <button data-target="_posts_hacking_Exemplo-de-Post" class="waves-effect waves-light btn modal-trigger" style="padding: 0 1.2rem;">overview<i class="mdi mdi-send right"></i></button>
+        <button data-target="_posts_hacking_Exemplo-de-Post" class="waves-effect waves-light btn modal-trigger" style="padding: 0 1.2rem;">Visão Geral<i class="mdi mdi-send right"></i></button>
 
         <div id="_posts_hacking_Exemplo-de-Post" class="modal modal-fixed-footer">
           <div class="modal-content">
             <h4>Exemplo de Post</h4>
-            <p><p>#Esse é um post de exemplo</p>
+            <p><h1 id="sample-markdown">Sample Markdown</h1>
 
 </p>
           </div>
           <div class="modal-footer">
-            <a href="/posts/hacking/Exemplo-de-Post.html" class="waves-effect btn-flat grey-text text-darken-4 right">read more</a>
-            <a class="modal-action modal-close waves-effect btn-flat grey-text text-darken-4 left">close</a>
+            <a href="/posts/hacking/Exemplo-de-Post.html" class="waves-effect btn-flat grey-text text-darken-4 right">leia mais</a>
+            <a class="modal-action modal-close waves-effect btn-flat grey-text text-darken-4 left">Fechar</a>
           </div>
         </div>
       </li>

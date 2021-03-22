@@ -127,10 +127,10 @@ a.reversefootnote {
     font-size: 1.5em;
     margin-bottom: 10px;
 
-    color: $pink;
+    color: #12880a;
 
     &:hover {
-        color: $blue;
+        color: #e91e63;
     }
 
     @media #{$small-and-down} {

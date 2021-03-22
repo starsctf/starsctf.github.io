@@ -1,8 +1,8 @@
 # **NOTE**
 # 1. Empty strings are truthy.
 
-#- id: tab-test
-#  name: test
-#  fp: tab/test.html
-#  disabled: false
+- id: tab_guia_estudos
+  name: Guia de Estudos
+  fp: tab/guia_estudos.html
+  disabled: false
 
