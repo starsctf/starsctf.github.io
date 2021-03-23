@@ -4,5 +4,11 @@
 - id: tab_guia_estudos
   name: Guia de Estudos
   fp: tab/guia_estudos.html
-  disabled: false
+  disabled: true
+
+- id: tab_colaboradores
+  name: Colaboradores
+  fp: tab/colaboradores.html
+  disabled: true
+
 
